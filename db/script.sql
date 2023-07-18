@@ -1,5 +1,5 @@
 create table transaction (
-	date DATE not null,
+	date_transaction DATE not null,
 	check_value int(4),
 	description varchar(150) primary key,
 	amount float not null
